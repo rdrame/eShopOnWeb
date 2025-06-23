@@ -10,6 +10,10 @@ env:
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 9253982c-5262-47eb-9e20-564ecef3f3e8
   WEBAPP-NAME: eshoponweb-webapp-rdrame001
+  
+permissions:
+  id-token: write
+  contents: read
 
 
 jobs:
